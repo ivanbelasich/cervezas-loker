@@ -18,22 +18,27 @@ export const Navbar = () => {
         <div className={!showMobileMenu ? styles.menu_disabled : styles.menu}>
           <li className={styles.menu_item}>
             <Link href={"/"}>
-              <a className={styles.menu_item_a}>Inicio</a>
+              <a
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+                className={styles.menu_item_a}
+              >
+                Inicio
+              </a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/cervezas"}>
-              <a>Cervezas</a>
+              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Cervezas</a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/nosotros"}>
-              <a>Nosotros</a>
+              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Nosotros</a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/contacto"}>
-              <a>Contacto</a>
+              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Contacto</a>
             </Link>
           </li>
         </div>
