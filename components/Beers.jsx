@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import principal from "../public/images/principal.png";
+import principal from "../public/images/principal.jpg";
 import styles from "../styles/Beers.module.css";
 
 export const Beers = () => {
