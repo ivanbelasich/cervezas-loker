@@ -6,15 +6,15 @@ import styles from "../styles/Beers.module.css";
 
 export const Beers = () => {
   return (
-    <div className={styles.container}>
-      <Link href={"/cervezas"}>
-        <div>
+    <Link href={"/cervezas"}>
+      <a>
+        <div className={styles.container}>
           <div className={styles.image}>
             <Image src={principal} alt="img not found" layout="responsive" />
           </div>
           <div className={styles.span}>Nuestras cervezas</div>
         </div>
-      </Link>
-    </div>
+      </a>
+    </Link>
   );
 };
