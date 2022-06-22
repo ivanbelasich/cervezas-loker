@@ -27,7 +27,7 @@
   top: 225px;
   left: 0;
   width: 100%;
-  height: 300px;
+  height: calc(100vh - 225px);
   justify-content: center;
   flex-direction: column;
   align-items: center;
