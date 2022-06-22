@@ -23,6 +23,7 @@
   background-color: #222;
   display: flex;
   position: absolute;
+  z-index: 1;
   top: 225px;
   left: 0;
   width: 100%;
@@ -55,7 +56,6 @@
   display: grid;
   color: white;
   cursor: pointer;
-  text-align: center;
 }
 
 @media (width > 950px) {

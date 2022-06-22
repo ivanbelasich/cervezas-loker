@@ -1,8 +1,9 @@
+import { Beers } from "../components/Beers";
 
 export default function Home() {
   return (
     <div>
-      Home
+    <Beers />
     </div>
   )
 }

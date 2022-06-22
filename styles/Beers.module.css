@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+
+.container {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.span {
+  position: absolute;
+  bottom: 40%;
+  width: 100vw;
+  font-size: 4em;
+  color: white;
+  text-shadow: 2px 2px 0 #000;
+  font-family: "League Gothic", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(197, 128, 83);
+}
