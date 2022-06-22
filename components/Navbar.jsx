@@ -22,23 +22,38 @@ export const Navbar = () => {
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
                 className={styles.menu_item_a}
               >
-                Inicio
+               Inicio
               </a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/cervezas"}>
-              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Cervezas</a>
+              <a
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+                className={styles.menu_item_a}
+              >
+                Cervezas
+              </a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/nosotros"}>
-              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Nosotros</a>
+              <a
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+                className={styles.menu_item_a}
+              >
+                Nosotros
+              </a>
             </Link>
           </li>
           <li className={styles.menu_item}>
             <Link href={"/contacto"}>
-              <a onClick={() => setShowMobileMenu(!showMobileMenu)}>Contacto</a>
+              <a
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+                className={styles.menu_item_a}
+              >
+                Contacto
+              </a>
             </Link>
           </li>
         </div>
@@ -47,9 +62,9 @@ export const Navbar = () => {
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
           {showMobileMenu ? (
-            <FaTimes size="3em" color="#c58053" />
+            <FaTimes size="3em" color="#202020" />
           ) : (
-            <FaBars size="3em" color="#c58053" />
+            <FaBars size="3em" color="#202020" />
           )}
           Menu
         </div>
