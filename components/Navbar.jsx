@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes, FaBars } from "react-icons/fa";
 import styles from "../styles/Navbar.module.css";
 import logo from "../public/images/logoLoker.png";
 import Image from "next/image";
@@ -46,11 +46,12 @@ export const Navbar = () => {
           className={styles.hamburg}
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
+          {showMobileMenu ? (
+            <FaTimes size="3em" color="#c58053" />
+          ) : (
+            <FaBars size="3em" color="#c58053" />
+          )}
           Menu
-          <GiHamburgerMenu size="3em" color="#c58053" />
-          {/*   <Link href={"/"}>Home</Link>
-          <Link href={"/about"}>About</Link>
-          <Link href={"/contact"}>Contact</Link> */}
         </div>
       </nav>
     </header>
