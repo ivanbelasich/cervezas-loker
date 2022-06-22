@@ -6,11 +6,11 @@
 
 .nav {
   display: flex;
-  padding: 16px;
   align-items: center;
-  background-color: #222;
-  height: 225px;
+  background-color: #fff;
+  height: 190px;
   justify-content: center;
+  margin-top: 10px;
 }
 
 /* .nav_menu_list {
@@ -20,11 +20,11 @@
   column-gap: 16px;
 } */
 .menu {
-  background-color: #222;
+  background-color: #fff;
   display: flex;
   position: absolute;
   z-index: 1;
-  top: 225px;
+  top: 200px;
   left: 0;
   width: 100%;
   height: calc(100vh - 225px);
@@ -32,7 +32,6 @@
   flex-direction: column;
   align-items: center;
   transition: 0.5s all ease;
-  color: white;
 }
 
 .menu_disabled {
