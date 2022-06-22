@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.container_text {
+  padding: 60px 40px;
+  font-size: 2em;
+  background-color: #202020;
+  color: white;
+}
