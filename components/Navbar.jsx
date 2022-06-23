@@ -22,7 +22,7 @@ export const Navbar = () => {
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
                 className={styles.menu_item_a}
               >
-               Inicio
+                Inicio
               </a>
             </Link>
           </li>
@@ -66,7 +66,7 @@ export const Navbar = () => {
           ) : (
             <FaBars size="3em" color="#202020" />
           )}
-          Menu
+          {showMobileMenu ? "Cerrar" : "Menu"}
         </div>
       </nav>
     </header>
