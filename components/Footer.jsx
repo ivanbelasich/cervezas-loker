@@ -20,12 +20,20 @@ const Footer = () => {
       <ul className={styles.social_links}>
         <h3>Redes</h3>
         <li>
-          <a href="https://www.facebook.com/cervezaloker" target="_blank">
+          <a
+            href="https://www.facebook.com/cervezaloker"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaFacebookSquare size="2em" />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/cervezaloker/" target="_blank">
+          <a
+            href="https://www.instagram.com/cervezaloker/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsInstagram size="2em" />
           </a>
         </li>
