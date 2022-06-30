@@ -12,7 +12,7 @@ export const Navbar = () => {
       <nav className={styles.nav}>
         <Link href={"/"}>
           <div className={styles.logo_container}>
-            <Image src={logo} alt="img not found" height={210} width={210} />
+            <Image src={logo} alt="img not found" height={180} width={180} />
           </div>
         </Link>
         <div className={!showMobileMenu ? styles.menu_disabled : styles.menu}>
