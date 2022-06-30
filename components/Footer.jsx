@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { FaFacebookSquare, FaPhoneAlt } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
