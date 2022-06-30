@@ -4,8 +4,8 @@ import { Beers } from "../components/Beers";
 export default function Home() {
   return (
     <div>
-      <About />
       <Beers />
+      <About />
     </div>
   );
 }

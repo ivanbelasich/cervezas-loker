@@ -19,3 +19,7 @@
   text-decoration: underline;
   text-decoration-color: rgb(197, 128, 83);
 }
+
+.image {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+}
