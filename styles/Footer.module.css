@@ -6,8 +6,6 @@
   color: white;
   padding: 20px;
   text-align: center;
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url("https://media.istockphoto.com/photos/distressed-wooden-boards-picture-id624697496?b=1&k=20&m=624697496&s=170667a&w=0&h=AwbSAVBmN0BU1V2zpcYR4eAU7cXjPCPB0puo7alZIUU=");
     border-bottom: 1px solid #d7ae8a;
 }
 
@@ -45,6 +43,6 @@
 .derechos {
   text-align: center;
   padding: 10px 0;
-  background-color: #111;
+  background-color: #040404;
   color: white;
 }

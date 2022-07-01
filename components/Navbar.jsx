@@ -62,9 +62,9 @@ export const Navbar = () => {
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
           {showMobileMenu ? (
-            <FaTimes size="3em" color="#202020" />
+            <FaTimes size="3em" color="white" />
           ) : (
-            <FaBars size="3em" color="#202020" />
+            <FaBars size="3em" color="white" />
           )}
           {showMobileMenu ? "Cerrar" : "Menu"}
         </div>
