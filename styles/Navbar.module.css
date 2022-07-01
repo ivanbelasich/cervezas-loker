@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(64, 50, 40, 0.75)),
-    url("https://media.istockphoto.com/photos/distressed-wooden-boards-picture-id624697496?b=1&k=20&m=624697496&s=170667a&w=0&h=AwbSAVBmN0BU1V2zpcYR4eAU7cXjPCPB0puo7alZIUU=");
+    url("../public/images/navbar-image.jpg");
   height: 130px;
   justify-content: center;
   margin-top: 0px;
