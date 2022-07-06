@@ -1,0 +1,7 @@
+.container {
+  background-image: url("https://media.istockphoto.com/photos/natural-decorative-recycled-art-letter-paper-background-texture-picture-id1280849947?b=1&k=20&m=1280849947&s=170667a&w=0&h=bDxlJUsF3BXhMh5VjoA5gqqkb88HnsFX8Zz5O1Qs0ug=");
+  padding-top: 100px;
+  height: auto;
+  z-index: -1;
+  position: relative;
+}
