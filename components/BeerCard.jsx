@@ -14,6 +14,15 @@ export const BeerCard = () => {
       maridaje:
         "Curry de pollo o pescado /  empanadas de carne al verdeo y salsa picante picante /  bruschettas de hongos al ajillo.",
     },
+     {
+      imagen: pruebaloker,
+      title: "Golden",
+      subtitulo: "Lupulada /  Turbia /  Sedosa",
+      descripción:
+        "Una American IPA con sabores y aromas frutales intensos, cuerpo suave y sensación en boca con textura delicada,turbia. Se percibe menos amargor que en las IPAs tradicionales, pero el lúpulo siempre es dominante.",
+      maridaje:
+        "Curry de pollo o pescado /  empanadas de carne al verdeo y salsa picante picante /  bruschettas de hongos al ajillo.",
+    },
   ];
 
   return (
